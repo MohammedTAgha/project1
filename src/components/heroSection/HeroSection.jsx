@@ -14,7 +14,7 @@ export default class HeroSection extends Component {
             Golden View Dine 
         </div>
         <p className={tp.subtitle}>Explore the authentic vegan dishes with your friends and family</p>
-        <Button />
+        <Button text={"Read more "}  type={"primary"}/>
        </main>
       </div>
     )
