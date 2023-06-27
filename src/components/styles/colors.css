@@ -1,0 +1,11 @@
+:root {
+    --color-primary: #A08040;
+    --color-secondary: ##FFCE6D;
+    --color-secondarylight: #FFFCCC;
+
+
+    --color-text: #fff;
+    --color-background: #000000;
+    --color-backgrounddark: #101418;
+    /* Add additional color variables for other styles */
+  }
