@@ -23,4 +23,8 @@
     align-items: center;
     flex-direction: column;
 }
+.section main p{
+    margin-top: 24px;
+    margin-bottom: 38px;
+}
 
