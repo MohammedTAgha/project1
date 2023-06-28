@@ -1,5 +1,5 @@
 /* typography.module.css */
-
+@import './colors.css'; 
 
   .hero {
     font-size: 2.8125rem;
@@ -10,7 +10,8 @@
   .heading {
     font-size: 2.25rem;
     font-family: Dancing Script;
-    font-weight: 700;
+    font-weight: 800;
+    color: var(--color-primary);  
     line-height: 117.3%;
     letter-spacing: 0.225rem;
   }
@@ -58,3 +59,28 @@
     letter-spacing: -0.02em; */
   }
 
+
+/* colors */
+.primary {
+  color: var(--color-primary);
+}
+
+.secondary {
+  color: var(--color-secondary);
+}
+
+.secondarylight {
+  color: var(--color-secondarylight);
+}
+
+.text {
+  color: var(--color-text);
+}
+
+.background {
+  background-color: var(--color-background);
+}
+
+.backgrounddark {
+  background-color: var(--color-backgrounddark);
+}
