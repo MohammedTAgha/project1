@@ -1,0 +1,11 @@
+@import'./colors.css';
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay{
+    background-color: var(--color-backgrounddark);
+    opacity: 0.5;
+}
