@@ -8,7 +8,7 @@ export default class HeroSection extends Component {
     return (
       <div className={st.section}>
        <NavBar/> 
-       <main >
+       <main>
         <div className={tp.hero}>
           Welcome To <br></br>
             Golden View Dine 
