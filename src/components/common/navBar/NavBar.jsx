@@ -9,7 +9,7 @@ export default class NavBar extends Component {
     return (
       <div  className={st.navContainer}>
         <div className={st.logo}>
-         <img src={logo} alt="img" />
+         <img src={logo}/>
         </div>
         <div className={st.menu}>
             <ul className={ts.subtitle}>

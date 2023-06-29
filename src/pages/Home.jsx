@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { HeroSection , AboutSection, SpicialSection } from '../components'
+import { HeroSection , AboutSection } from '../components'
 
 
 export default class Home extends Component {
@@ -7,8 +7,7 @@ export default class Home extends Component {
     return (
       <>
         <HeroSection/>
-        <AboutSection/>
-        <SpicialSection/>
+         <AboutSection />
         
       </>
     )
