@@ -1,0 +1,98 @@
+[33mcommit ec93354e550ba1a127ba60bd5bbb8e0ad47bb6b1[m[33m ([m[1;36mHEAD -> [m[1;32mnew[m[33m, [m[1;31morigin/new[m[33m)[m
+Merge: 29a9e0f 9474b22
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Thu Jun 29 23:35:47 2023 +0300
+
+    Merge branch 'master' into new
+
+[33mcommit 29a9e0f081d95294d9a07950591412742ba0844c[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Thu Jun 29 23:34:38 2023 +0300
+
+    fix
+
+[33mcommit 9474b22eb2a7550ccdb52e7577b6a479663b1384[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Thu Jun 29 23:11:49 2023 +0300
+
+    Revert "spicial section"
+    
+    This reverts commit 97075fbd7d2262275c3e11d37c8d8b75265168f9.
+
+[33mcommit 97075fbd7d2262275c3e11d37c8d8b75265168f9[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Thu Jun 29 15:55:24 2023 +0300
+
+    spicial section
+
+[33mcommit af6c4a297308219949e2903f851c801e4298d8d2[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Thu Jun 29 15:55:07 2023 +0300
+
+    Card
+
+[33mcommit 7f70f0ef15c8800f39ee9ec4ed9096797f402c98[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Thu Jun 29 02:55:28 2023 +0300
+
+    Update styles.module.css
+
+[33mcommit 7c09d9cdfc58217687e046bf80c1ca344001462e[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Thu Jun 29 02:44:16 2023 +0300
+
+    Create styles.module.css
+
+[33mcommit 15c1f4a312542fa5a2dd8a61f34fb7cfc566663a[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Thu Jun 29 02:28:34 2023 +0300
+
+    finish about section
+
+[33mcommit c01c69d2ef2993c62f3245190113cff14c1814f9[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Wed Jun 28 01:26:29 2023 +0300
+
+    finish hero add gif
+
+[33mcommit e33c8045480ead5b352a6f958e692edb8ca3fea1[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Tue Jun 27 19:32:12 2023 +0300
+
+    make button component dynamic
+
+[33mcommit 49558fdd6ad8c4d9eca5b2cc6ab01eb7b237cce7[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Tue Jun 27 19:04:51 2023 +0300
+
+    craete hero section
+
+[33mcommit 9c9b91af9bc73066e6f2e6636642938d60c95fa1[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Tue Jun 27 18:39:59 2023 +0300
+
+    nav bar
+
+[33mcommit a94848f5a37c8fca9a2e331c08cee86274953cd2[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Tue Jun 27 18:39:07 2023 +0300
+
+    button
+
+[33mcommit 9fda9b80992495888e16d0441fa5e23b0562d71f[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Tue Jun 27 16:53:36 2023 +0300
+
+    creating typo and colors
+
+[33mcommit d9dfeaa86f1a2559eaf9bed63481fa78f73b079d[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Tue Jun 27 16:09:53 2023 +0300
+
+    typo_modules
+
+[33mcommit 18745c5194c2acc99309194567df73516dd0ac07[m
+Author: MOHAMMED T AGHA <mohammedtabsemagha@gmail.com>
+Date:   Mon Jun 26 23:11:16 2023 +0300
+
+    Initialize project using Create React App
