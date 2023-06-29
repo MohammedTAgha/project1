@@ -39,17 +39,24 @@
     /* font-weight: 700; */
   }
 
-  .xl{
+  .xxl{
     font-size: 3rem;
     font-family: Roboto;
     font-weight: 700;
     line-height: 117.3%;
   }
-  .l{
+  .xl{
     font-size: 2rem;
     font-family: Roboto;
     font-weight: 800;
     letter-spacing: 0.04rem;
+  }
+  .l{
+    font-size: 1.5rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117.3%;
   }
   .small {
     font-size: 0.875rem;
