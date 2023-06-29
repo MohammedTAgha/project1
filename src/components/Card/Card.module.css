@@ -1,4 +1,4 @@
-@import '../styles/colors.css';
+@import '../../common/styles/colors.css';
 .card {
     width: 384px;
     height: 455px;  

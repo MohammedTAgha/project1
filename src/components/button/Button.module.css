@@ -1,5 +1,5 @@
-@import '../../../styles/colors.css';
-@import '../../../styles/typography.module.css';
+@import '../../common/styles/colors.css';
+@import '../../common/styles/typography.module.css';
 .button {
   width: 272px;
   height: 76px;

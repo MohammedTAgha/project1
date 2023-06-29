@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import st from './HeroSection.module.css'
-import tp from '../styles/typography.module.css'
-import NavBar from '../common/navBar/NavBar'
-import Button from '../common/navBar/button/Button'
+import tp from '../../common/styles/typography.module.css'
+import NavBar from '../../components/navBar/NavBar'
+import Button from '../../components/button/Button'
 export default class HeroSection extends Component {
   render() {
     return (

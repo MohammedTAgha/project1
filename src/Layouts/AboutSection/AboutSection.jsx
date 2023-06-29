@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import st from "./AboutSection.module.css";
-import tp from '../styles/typography.module.css';
-import Button from "../common/navBar/button/Button";
+import tp from '../../common/styles/typography.module.css'
+import Button from "../../components/button/Button";
 import dish from '../../assets/dish.png'
 export default class AboutSection extends Component {
   render() {

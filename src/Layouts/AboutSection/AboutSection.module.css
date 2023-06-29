@@ -1,4 +1,4 @@
-@import '../styles/colors.css';
+@import '../../common/styles/colors.css';
 
 .parent {
   display: grid;
