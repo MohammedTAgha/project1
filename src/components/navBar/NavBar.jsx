@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import st from './styles.module.css';
 import ts from '../../common/styles/typography.module.css';
-
 import logo  from '../../assets/logo.png';
 import Button from '../button/Button';
 export default class NavBar extends Component {

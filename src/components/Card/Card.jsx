@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from '../styles/styles.module.css'
+import styles from '../../common/styles/styles.module.css'
 import tp from "../../common/styles/typography.module.css"
 import st from './Card.module.css'
 export default class Card extends Component {

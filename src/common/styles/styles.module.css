@@ -7,13 +7,11 @@
     width: 100%;
 }
 .colomns{
-  
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-
 }
 .centerd{
     display: flex;
