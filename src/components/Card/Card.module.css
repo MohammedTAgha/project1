@@ -1,16 +1,13 @@
-@import '../../common/styles/colors.css';
+@import "../../common/styles/colors.css";
 .card {
-    width: 384px;
-    height: 455px;  
-    border: 1px dashed var(--color-secondary);
-    background: var(--color-primary);
-    /* justify-content: space-between; */
+  width: 384px;
+  height: 455px;
+  border: 1px dashed var(--color-secondary);
+  background: var(--color-primary);
+  /* justify-content: space-between; */
 }
 
-
-.card img{
-    width: 5rem;
-height: 5rem;
+.card img {
+  width: 5rem;
+  height: 5rem;
 }
-
- 

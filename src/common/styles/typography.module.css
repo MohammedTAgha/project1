@@ -1,71 +1,70 @@
 /* typography.module.css */
-@import './colors.css'; 
+@import "./colors.css";
 
-  .hero {
-    font-size: 2.8125rem;
-    /* line-height: 1.2; */
-    font-family: Roboto;
-    font-weight: 700;
-  }
-  .heading {
-    font-size: 2.25rem;
-    font-family: Dancing Script;
-    font-weight: 800;
-    color: var(--color-primary);  
-    line-height: 117.3%;
-    letter-spacing: 0.225rem;
-  }
+.hero {
+  font-size: 2.8125rem;
+  /* line-height: 1.2; */
+  font-family: Roboto;
+  font-weight: 700;
+}
+.heading {
+  font-size: 2.25rem;
+  font-family: Dancing Script;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 117.3%;
+  letter-spacing: 0.225rem;
+}
 
-  .subheading {
-    font-size: 1.875rem;
-    font-family: Roboto;
-    font-weight: 700;
-    line-height: 117.3%;
-  }
-  .title{
-    font-size: 1.375rem;
-    font-family: Roboto;
-    font-weight: 700;
-  }
-  .subtitle{
-    font-size: 1.125rem;
-    font-family: Roboto;
-    font-weight: 700;
-  }
+.subheading {
+  font-size: 1.875rem;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 117.3%;
+}
+.title {
+  font-size: 1.375rem;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 1.125rem;
+  font-family: Roboto;
+  font-weight: 700;
+}
 
-  .body {
-    font-size: 1rem;
-    font-family: Roboto;
-    /* font-weight: 700; */
-  }
+.body {
+  font-size: 1rem;
+  font-family: Roboto;
+  /* font-weight: 700; */
+}
 
-  .xxl{
-    font-size: 3rem;
-    font-family: Roboto;
-    font-weight: 700;
-    line-height: 117.3%;
-  }
-  .xl{
-    font-size: 2rem;
-    font-family: Roboto;
-    font-weight: 800;
-    letter-spacing: 0.04rem;
-  }
-  .l{
-    font-size: 1.5rem;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 117.3%;
-  }
-  .small {
-    font-size: 0.875rem;
-    font-family: Roboto;
-    /* font-weight: 400; */
-    /* line-height: 1.8;
+.xxl {
+  font-size: 3rem;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 117.3%;
+}
+.xl {
+  font-size: 2rem;
+  font-family: Roboto;
+  font-weight: 800;
+  letter-spacing: 0.04rem;
+}
+.l {
+  font-size: 1.5rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.3%;
+}
+.small {
+  font-size: 0.875rem;
+  font-family: Roboto;
+  /* font-weight: 400; */
+  /* line-height: 1.8;
     letter-spacing: -0.02em; */
-  }
-
+}
 
 /* colors */
 .primary {

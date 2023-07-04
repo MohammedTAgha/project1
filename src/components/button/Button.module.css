@@ -1,5 +1,5 @@
-@import '../../common/styles/colors.css';
-@import '../../common/styles/typography.module.css';
+@import "../../common/styles/colors.css";
+@import "../../common/styles/typography.module.css";
 .button {
   width: 272px;
   height: 76px;
@@ -9,26 +9,24 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  background-color:var(--color-primary);
+  background-color: var(--color-primary);
   color: var(--color-secondarylight);
   border: none;
   cursor: pointer;
 }
 
 .button1 {
-  
- 
   display: flex;
   padding: 2px 20px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  background-color:transparent;
+  background-color: transparent;
   color: var(--color-secondarylight);
-  border:solid 2.5px  var(--color-secondarylight) ;
+  border: solid 2.5px var(--color-secondarylight);
   cursor: pointer;
 }
 
 .button:hover {
-  background-color:var(--color-primary);
+  background-color: var(--color-primary);
 }
