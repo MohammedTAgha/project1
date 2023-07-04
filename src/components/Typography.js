@@ -4,14 +4,14 @@ import styled from 'styled-components';
   font-size: 2.8125rem;
   font-family: Roboto;
   font-weight: 700;
-  color: ${props => (props.primary ? '#FFFCCC' : '#FFCE6D')};
+  color: ${props => (props.secondary ? '#FFCE6D' : '#FFFCCC'  )};
 `;
 
  const Heading = styled.h1`
   font-size: 2.25rem;
   font-family: Dancing Script;
   font-weight: 800;
-  color: ${props => (props.primary ? '#FFFCCC' : '#FFCE6D')};
+  color: ${props => (props.secondary ? '#FFCE6D' : '#FFFCCC'  )};
   line-height: 117.3%;
   letter-spacing: 0.225rem;
 `;
@@ -21,27 +21,27 @@ import styled from 'styled-components';
   font-family: Roboto;
   font-weight: 700;
   line-height: 117.3%;
-  color: ${props => (props.primary ? '#FFFCCC' : '#FFCE6D')};
+  color: ${props => (props.secondary ? '#FFCE6D' : '#FFFCCC'  )};
 `;
 
  const Title = styled.h3`
   font-size: 1.375rem;
   font-family: Roboto;
   font-weight: 700;
-  color: ${props => (props.primary ? '#FFFCCC' : '#FFCE6D')};
+  color: ${props => (props.secondary ? '#FFCE6D' : '#FFFCCC'  )};
 `;
 
  const Subtitle = styled.h4`
   font-size: 1.125rem;
   font-family: Roboto;
   font-weight: 700;
-  color: ${props => (props.primary ? '#FFFCCC' : '#FFCE6D')};
+  color: ${props => (props.secondary ? '#FFCE6D' : '#FFFCCC'  )};
 `;
 
  const BodyText = styled.p`
   font-size: 1rem;
   font-family: Roboto;
-  color: ${props => (props.primary ? '#FFFCCC' : '#FFCE6D')};
+  color: ${props => (props.secondary ? '#FFCE6D' : '#FFFCCC'  )};
 `;
 
  const XXL = styled.h1`
