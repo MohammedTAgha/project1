@@ -7,7 +7,7 @@ import styled from 'styled-components';
   color: ${props => (props.secondary ? '#FFCE6D' : '#FFFCCC'  )};
 `;
 
- const Heading = styled.h1`
+ const MainHeading = styled.h1`
   font-size: 2.25rem;
   font-family: Dancing Script;
   font-weight: 800;
@@ -78,7 +78,7 @@ import styled from 'styled-components';
 
 export {
     Hero,
-    Heading,
+    MainHeading,
     Subheading,
     Title,
     Subtitle,
