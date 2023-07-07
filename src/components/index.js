@@ -5,3 +5,5 @@ export { default as NavBar } from "./navBar/NavBar";
 export { default as Card } from "./Card/Card";
 
 export { default as Container } from "./Container/Container";
+export { default as MenuItem } from "./MenuItem/MenuItem";
+
