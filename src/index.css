@@ -18,12 +18,10 @@ code {
 }
 
 * {
- 
   margin: 0;
   padding: 0;
   border: 0;
   background-color: transparent;
-  
 }
 
 :root {
@@ -37,6 +35,6 @@ code {
   /* Add additional color variables for other styles */
 }
 
-.t{
+.t {
   width: fit-content;
 }

@@ -15,7 +15,7 @@ export default class Home extends Component {
         <AboutSection />
         <SpicialSection />
         <MenuSection />
-        <BookingSection/>
+        <BookingSection />
       </>
     );
   }

@@ -1,26 +1,24 @@
 @import "../../common/styles/colors.css";
-.card{
-    
-    max-width: 500px;
-    /* min-width: 340px; */
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.card {
+  max-width: 500px;
+  /* min-width: 340px; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .card img {
-    width: 64px;
-    height: 64px;
-    background-color: #fff;
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
 }
-.card .textContainer{
-    max-width: 210px;
-    margin-left: 8px;
+.card .textContainer {
+  max-width: 210px;
+  margin-left: 8px;
 }
 
-
-.line{
-    height: 1px;
-    width: 123px;
-    background-color: var(--color-secondary);
+.line {
+  height: 1px;
+  width: 123px;
+  background-color: var(--color-secondary);
 }

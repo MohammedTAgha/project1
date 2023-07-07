@@ -1,91 +1,90 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
- const Hero = styled.h1`
+const Hero = styled.h1`
   font-size: 2.8125rem;
   font-family: Roboto;
-  font-weight: ${props => props.fontWeight || 700};
-  color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
+  font-weight: ${(props) => props.fontWeight || 700};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
 `;
 
- const MainHeading = styled.h1`
+const MainHeading = styled.h1`
   font-size: 2.25rem;
   font-family: Dancing Script;
-  font-weight: ${props => props.fontWeight || 800};
-  color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
+  font-weight: ${(props) => props.fontWeight || 800};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
   line-height: 117.3%;
   letter-spacing: 0.225rem;
 `;
 
- const Subheading = styled.h2`
+const Subheading = styled.h2`
   font-size: 1.875rem;
   font-family: Roboto;
-  font-weight: ${props => props.fontWeight || 700};
+  font-weight: ${(props) => props.fontWeight || 700};
   line-height: 117.3%;
-  color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
 `;
 
- const Title = styled.h3`
+const Title = styled.h3`
   font-size: 1.375rem;
   font-family: Roboto;
-  font-weight: ${props => props.fontWeight || 700};
-  color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
+  font-weight: ${(props) => props.fontWeight || 700};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
 `;
 
- const Subtitle = styled.h4`
+const Subtitle = styled.h4`
   font-size: 1.125rem;
   font-family: Roboto;
-  font-weight: ${props => props.fontWeight || 700};
-  color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
+  font-weight: ${(props) => props.fontWeight || 700};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
 `;
 
- const BodyText = styled.p`
+const BodyText = styled.p`
   font-size: 1rem;
   font-family: Roboto;
-  color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
 `;
 
- const XXL = styled.h1`
+const XXL = styled.h1`
   font-size: 3rem;
   font-family: Roboto;
-  font-weight: ${props => props.fontWeight || 700};
+  font-weight: ${(props) => props.fontWeight || 700};
   line-height: 117.3%;
-  color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
 `;
 
- const XL = styled.h2`
+const XL = styled.h2`
   font-size: 2rem;
   font-family: Roboto;
-  font-weight: ${props => props.fontWeight || 800};
+  font-weight: ${(props) => props.fontWeight || 800};
   letter-spacing: 0.04rem;
-  color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
 `;
 
- const L = styled.h3`
+const L = styled.h3`
   font-size: 1.5rem;
   font-family: Roboto;
   font-style: normal;
-  font-weight: ${props => props.fontWeight || 700};
+  font-weight: ${(props) => props.fontWeight || 700};
   line-height: 117.3%;
-   color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
 `;
 
- const SmallText = styled.span`
+const SmallText = styled.span`
   font-size: 0.875rem;
   font-family: Roboto;
-  color: ${props => props.secondary ? '#FFCE6D' : props.color || '#FFFCCC'};
-  font-weight: ${props => props.fontWeight};
+  color: ${(props) => (props.secondary ? "#FFCE6D" : props.color || "#FFFCCC")};
+  font-weight: ${(props) => props.fontWeight};
 `;
 
-
 export {
-    Hero,
-    MainHeading,
-    Subheading,
-    Title,
-    Subtitle,
-    BodyText,
-    XXL,
-    XL,
-    L,
-    SmallText,
-  };
+  Hero,
+  MainHeading,
+  Subheading,
+  Title,
+  Subtitle,
+  BodyText,
+  XXL,
+  XL,
+  L,
+  SmallText,
+};
