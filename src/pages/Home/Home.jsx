@@ -1,6 +1,10 @@
 import React, { Component } from "react";
-import { HeroSection, AboutSection, SpicialSection,MenuSection } from "../../Layouts";
-
+import {
+  HeroSection,
+  AboutSection,
+  SpicialSection,
+  MenuSection,
+} from "../../Layouts";
 
 export default class Home extends Component {
   render() {
@@ -9,7 +13,7 @@ export default class Home extends Component {
         <HeroSection />
         <AboutSection />
         <SpicialSection />
-        <MenuSection/>
+        <MenuSection />
       </>
     );
   }

@@ -13,14 +13,14 @@ const MenuContainer = styled.div`
   justify-content: space-between;
   flex-flow: row wrap;
   row-gap: 32px;
+  padding: 28px 0;
 `;
 export default class MenuSection extends Component {
   render() {
     return (
-      <Container paddingTop={"32px"} paddingBottom={"120px"}>
+      <Container overlay paddingTop={"32px"} paddingBottom={"120px"}>
         <MainHeading secondary>Straight From Kitchen</MainHeading>
         <Subheading>Our Menue</Subheading>
-
         <MenuContainer>
           <MenuItem/>
           <MenuItem/>
