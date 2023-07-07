@@ -8,7 +8,7 @@ export default class AboutSection extends Component {
     return (
       <div className={st.parent}>
         <div className={st.left}>
-          <p className={`${tp.heading} `}>About Us</p>
+          <p className={`${tp.heading}`}>About Us</p>
           <p className={`${tp.subheading}  ${tp.secondarylight}`}>
             Discover the taste of worldclass vegan dishes <br />
             from the kitchen of Go Green Dine
