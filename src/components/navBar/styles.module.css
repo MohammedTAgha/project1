@@ -1,11 +1,11 @@
 .navContainer {
   display: flex;
   justify-content: space-between;
-  width: 68.6vw;
+  width: 68.6%;
   height: 76px;
   position: absolute;
   top: 131px;
-  left: calc((100vw - 68.6vw) / 2);
+  left: calc((100% - 68.6%) / 2);
   background-color: #000;
 }
 .logo {

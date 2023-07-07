@@ -2,6 +2,7 @@
 .card{
     
     max-width: 500px;
+    /* min-width: 340px; */
     width: 50%;
     display: flex;
     align-items: center;

@@ -18,7 +18,7 @@ const MenuContainer = styled.div`
 export default class MenuSection extends Component {
   render() {
     return (
-      <Container overlay paddingTop={"32px"} paddingBottom={"120px"}>
+      <Container  paddingTop={"32px"} paddingBottom={"120px"}>
         <MainHeading secondary>Straight From Kitchen</MainHeading>
         <Subheading>Our Menue</Subheading>
         <MenuContainer>

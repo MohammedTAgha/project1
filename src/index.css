@@ -18,6 +18,7 @@ code {
 }
 
 * {
+ 
   margin: 0;
   padding: 0;
   border: 0;
@@ -36,3 +37,6 @@ code {
   /* Add additional color variables for other styles */
 }
 
+.t{
+  width: fit-content;
+}
