@@ -20,6 +20,7 @@ const StyledContainer = styled.div`
   border: ${(props) => props.border || "none"};
   border-radius: ${(props) => props.borderRadius || "0"};
   box-shadow: ${(props) => props.boxShadow || "none"};
+  ${(props) => props.hidden && "overflow: hidden;"}
 `;
 
 export default class Container extends Component {
