@@ -26,8 +26,12 @@ code {
 
 :root {
   --color-primary: #a08040;
-  --color-secondary: #ffce6d;
+  --color-secondary: #fff;
   --color-secondarylight: #fffccc;
+
+  --color-heading: #000;
+  --color-body: #fff;
+  --color-lable: ##8692A6;
 
   --color-text: #fff;
   --color-background: #000000;

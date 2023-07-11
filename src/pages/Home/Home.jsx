@@ -6,6 +6,7 @@ import {
   MenuSection,
   BookingSection,
   CookingSection,
+  FeaturesSection
 } from "../../Layouts";
 
 export default class Home extends Component {
@@ -18,6 +19,7 @@ export default class Home extends Component {
         <MenuSection />
         <BookingSection />
         <CookingSection/>
+        <FeaturesSection />
       </>
     );
   }
