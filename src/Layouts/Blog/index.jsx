@@ -3,7 +3,7 @@ import './blog.css'
 import Image1 from '../../assets/blog1.png'
 
 import BlogCard from '../../components/BlogCard'
-
+import st from '../../common/styles/typography.module.css'
 const blogs = [
     {
         id : 1,
@@ -34,8 +34,8 @@ const blogs = [
 const Blog = () => {
   return (
     <section className='blogs'>
-        <h2>Blogs</h2>
-        <p className="under_title">words from our food lovers</p>
+        <h2 className={st.heading}>Blogs</h2>
+        <p className={`under_title ${st.subheading}`}>words from our food lovers</p>
         <div className="content">
             {
                 blogs.map(item => <BlogCard key={item.id} image={item.image} title={item.title} body={item.body} link={item.link} reverse={item.reverse} />)

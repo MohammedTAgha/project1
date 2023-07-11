@@ -9,6 +9,7 @@ import {
   FeaturesSection,
   Reviews
 } from "../../Layouts";
+import Blog from "../../Layouts/Blog";
 
 export default class Home extends Component {
   render() {
@@ -22,6 +23,8 @@ export default class Home extends Component {
         <CookingSection/>
         <FeaturesSection />
         <Reviews />
+        <Blog/>
+        
       </>
     );
   }
