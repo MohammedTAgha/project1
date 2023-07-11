@@ -6,3 +6,4 @@ export { default as Card } from "./Card/Card";
 
 export { default as Container } from "./Container/Container";
 export { default as MenuItem } from "./MenuItem/MenuItem";
+export { default as FetureCard } from "./FeaturesCard/FeaturesCard";
